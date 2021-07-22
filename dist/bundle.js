@@ -3563,7 +3563,7 @@ function XLabels(_ref) {
           style: {
             flex: squares ? "none" : 1,
             textAlign: "center",
-            width: squares ? height + 1 + "px" : width,
+            width: squares ? height + "px" : width,
             visibility: labelsVisibility && !labelsVisibility[i] ? "hidden" : "visible"
           }
         },
